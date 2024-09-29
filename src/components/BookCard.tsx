@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 interface BookCardProps {
   title: string;
@@ -9,7 +8,7 @@ interface BookCardProps {
 export default function BookCard({title,description,coverImage,onClick}:BookCardProps) {
     return (
      <div style={cardStyle} onClick={onClick}>
-  <Image src={coverImage} alt={title} style={imageStyle}/>
+  <img src={coverImage} alt={title} style={imageStyle}        />
   <div style={contentStyle}>
   <h3 style={titleStyle}>{title}</h3>
   <p style={descriptionStyle}>{description}</p>
