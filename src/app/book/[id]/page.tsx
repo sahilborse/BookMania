@@ -14,7 +14,7 @@ export default function BookPage() {
 
    const { dom, setDom } = useDomValue();
 
-   const selectedBook = books.filter((book: { id: any },i: any)=>{
+   const selectedBook = books.filter((book: { id: number },)=>{
     return id === String(book.id)
    })
    const notify = () => toast("Your changes has been saved!!");
@@ -49,7 +49,8 @@ export default function BookPage() {
             initial={{ opacity: 0, y: -1000 }} animate={{ opacity: 1, y: 0 }} className={styles.appBar}>
      <div className={styles.leftIcons} >
      <a href={'/'} style={{textDecoration:'none'}} >
-    <i style={{fontSize:'20px',cursor:'pointer'}}  className="fas fa-chevron-left"></i> </a>
+    <i style={{fontSize:'20px',cursor:'pointer'}} className="fas fa-chevron-left"></i> 
+    </a>
     </div>
   <div className={styles.title}>  <h2 className={styles.titleStyles}> {selectedBook[0].title}</h2></div>
   <div className={styles.icons}>

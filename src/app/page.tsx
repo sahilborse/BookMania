@@ -30,7 +30,7 @@ export default function Home() {
         animate={{opacity:1,x:0}}
         key={i}>
           <a href={`/book/${book.id}`} style={{textDecoration:'none'}} >
-           <BookCard title={book.title} coverImage={book.image} description={book.description} />
+           <BookCard title={book.title} coverImage={book.image} description={book.description} onClick={()=>{}} />
           </a>
         </motion.li>
       )

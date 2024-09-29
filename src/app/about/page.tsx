@@ -38,7 +38,7 @@ const About = () => {
                   Our mission is to make books accessible and enjoyable for everyone, 
                   wherever you are. With a wide variety of genres and features tailored 
                   to enhance your reading experience, we bring the library right to your fingertips. 
-                  Whether you’re a casual reader or a bookworm, you’ll find something to love.
+                  Whether you&apos;re a casual reader or a bookworm, you&apos;ll find something to love.
                 </p>
 
                 <p>
@@ -46,7 +46,7 @@ const About = () => {
                   progress tracking, and a distraction-free reading environment. 
                   Join our growing community of readers and discover new books, 
                   explore timeless classics, or dive into trending releases. 
-                  We're committed to making reading an enjoyable, immersive experience.
+                  We&apos;re committed to making reading an enjoyable, immersive experience.
                 </p>
               </motion.li>
             </ul>
