@@ -1,3 +1,6 @@
 ## Book mania
 ![Screenshot 2024-09-29 164214](https://github.com/user-attachments/assets/14967101-f8cc-4367-a00f-5ef50fbba839)
-![Uploading Screenshot 2024-09-29 164214.png…]()
+
+# Book Mania is a Next.js application designed for book lovers, enabling them to browse, highlight, and edit books seamlessly. The app features dynamic routing that allows users to access individual book pages using unique IDs or slugs for a user-friendly navigation experience. Users can easily add and edit book details such as title, author, and cover image, as well as highlight important passages for easy reference. It also offers search and filter options to find books by title, author, or genre, along with pagination for improved usability.
+
+For enhanced user experience, optional user authentication allows readers to securely save their highlights and edits. The application integrates Next.js API routes for efficient CRUD operations on book data, ensuring smooth data handling. Designed to be responsive, Book Mania provides a mobile-friendly experience using CSS modules or Tailwind CSS. Additionally, it leverages Next.js's SEO features to enhance the discoverability of books. Built with a stack that includes Next.js and React, with data storage options like local storage or an external database, Book Mania aims to create an engaging platform for readers to explore and manage their favorite books effectively.
